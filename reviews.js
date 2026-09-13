@@ -130,41 +130,8 @@ const REVIEWS = [
     "Placeholder text — swap in your real thoughts here.",
     "Don't forget to set an actual rating in place of the 0 above."
   ]
-},
-{
-  id: "fire-emblem-shadow-dragon",
-  title: "Fire Emblem: Shadow Dragon",
-  date: "2026-08-29",
-  status: "finished",
-  rating: 7,
-  tags: ["srpg", "fire emblem"],
-  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
-  body: [
-  {
-    heading: "Likes:",
-    list: [
-      "Reclass system is really fun to use and lets you turn any character into any unit type. Classes are capped per army, but it's still a cool concepy.",
-      "Save points are a good midpoint between the modern era's Divine Pulse and a plain suspend save — they let you set a checkpoint to fall back on if you die, without being as overpowered as Divine Pulse.",
-      "The armory is a cool idea and fun to use, though certain weapons can push things into overpowered territory."
-    ]
-  },
-  {
-    heading: "Dislikes:",
-    list: [
-      "Lackluster story — heavy focus on Marth leaves little room to develop the supporting cast. Even the villain Gharnef is a stereotypical evil wizard with no real dimension, and there's no backstory for why Medeus attacked and hates humanity.",
-      "The story is also very basic: fighting an evil dragon to avenge your parents and free the continent.",
-      "Sprite work is a downgrade from the GBA era and doesn't have the same flair.",
-      "The final map is badly designed and basically requires a warp staff if you don't want to slog through waves of reinforcements.",
-      "Gaiden chapters are locked behind having fewer units and performing worse, which is counterintuitive to how most people actually play.",
-      "No support conversations between characters — occasionally there's dialogue between them, but it's limited to one exchange per pair.",
-      "Lack of objectives other than capture.",
-      "The beginning of Maddening mode is straight-up unfair at times and can require spending 40+ turns on chapter 1 alone just to beat the boss.",
-      "No playable Anna."
-    ]
-  }
-]
-  ]
-} 
+}
+
 ];
 
 /* ===========================================================
