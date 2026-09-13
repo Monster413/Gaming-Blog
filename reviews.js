@@ -42,9 +42,9 @@ const REVIEWS = [
   {
     id: "trails-beyond-the-horizon",
     title: "Trails Beyond the Horizon",
-    date: "2026-03-01",
+    date: "2026-03-17",
     status: "finished",
-    rating: 9,
+    rating: 8.5,
     tags: ["jrpg", "trails"],
     excerpt: "Replace this excerpt with your own one-line verdict — this entry is a placeholder showing the format.",
     body: [
@@ -55,10 +55,10 @@ const REVIEWS = [
   },
 {
   id: "tsukihime",
-  title: "Tsukihime",
-  date: "2026-09-13",
+  title: "Tsukihime + Plus Disc",
+  date: "2026-04-18",
   status: "finished",
-  rating: 0,
+  rating: 9,
   tags: ["visual novel"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
@@ -69,9 +69,9 @@ const REVIEWS = [
 {
   id: "witch-on-the-holy-night",
   title: "Witch on the Holy Night",
-  date: "2026-09-13",
+  date: "2026-05-01",
   status: "finished",
-  rating: 0,
+  rating: 7,
   tags: ["visual novel"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
@@ -82,9 +82,9 @@ const REVIEWS = [
 {
   id: "fate-extra",
   title: "Fate/Extra",
-  date: "2026-09-13",
+  date: "2026-05-17",
   status: "finished",
-  rating: 0,
+  rating: 8,
   tags: ["rpg", "fate"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
@@ -95,9 +95,9 @@ const REVIEWS = [
 {
   id: "drakengard-1",
   title: "Drakengard",
-  date: "2026-09-13",
+  date: "2026-05-29",
   status: "finished",
-  rating: 0,
+  rating: 7,
   tags: ["action rpg", "drakengard"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
@@ -108,9 +108,9 @@ const REVIEWS = [
 {
   id: "kagetsu-tohya",
   title: "Kagetsu Tohya",
-  date: "2026-09-13",
+  date: "2026-07-01",
   status: "finished",
-  rating: 0,
+  rating: 5,
   tags: ["visual novel"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
@@ -121,9 +121,9 @@ const REVIEWS = [
 {
   id: "fire-emblem-blazing-blade",
   title: "Fire Emblem: The Blazing Blade",
-  date: "2026-09-13",
+  date: "2026-08-01",
   status: "finished",
-  rating: 0,
+  rating: 8.5,
   tags: ["srpg", "fire emblem"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
@@ -134,9 +134,9 @@ const REVIEWS = [
 {
   id: "fire-emblem-shadow-dragon",
   title: "Fire Emblem: Shadow Dragon",
-  date: "2026-09-13",
+  date: "2026-08-29",
   status: "finished",
-  rating: 0,
+  rating: 7,
   tags: ["srpg", "fire emblem"],
   excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
   body: [
