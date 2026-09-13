@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backlog &mdash; a game review log</title>
+<meta name="description" content="Reviews and running notes on whatever I'm playing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="masthead-text">
+      <h1 class="site-title">Backlog</h1>
+      <p class="site-tag">a running log of what I've played, what I'm playing, and what I thought of it</p>
+    </div>
+    <nav class="filter-nav" id="filterNav" aria-label="Filter reviews by tag">
+      <button class="filter-btn is-active" data-tag="all">everything</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap layout">
+
+  <section class="feed" id="feed" aria-label="Reviews">
+    <!-- review entries injected by script.js -->
+  </section>
+
+  <aside class="sidebar">
+    <div class="ticket now-playing" id="nowPlaying">
+      <!-- now-playing entries injected by script.js -->
+    </div>
+
+    <div class="ticket finished-list" id="finishedList">
+      <!-- finished entries injected by script.js -->
+    </div>
+
+    <div class="ticket about-box">
+      <h2 class="ticket-title">About this log</h2>
+      <p>Ratings run 0&ndash;10. A review shows up here when I've either finished a game or put it down for good &mdash; not before. "Now Playing" is the in-progress shelf, no verdict yet.</p>
+      <p>Edit <code>reviews.js</code> to add your own entries &mdash; see the README for the format.</p>
+    </div>
+  </aside>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Built with plain HTML, CSS, and JS &middot; hosted on GitHub Pages</p>
+  </div>
+</footer>
+
+<!-- Full review overlay -->
+<div class="overlay" id="overlay" aria-hidden="true">
+  <div class="overlay-panel" role="dialog" aria-modal="true" aria-labelledby="overlayTitle">
+    <button class="overlay-close" id="overlayClose" aria-label="Close review">&times;</button>
+    <div id="overlayContent"></div>
+  </div>
+</div>
+
+<script src="reviews.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
