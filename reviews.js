@@ -52,7 +52,98 @@ const REVIEWS = [
       "Use the next paragraph or two for specifics: what worked, what dragged, a moment that stuck with you. Since you've cleared the whole Kiseki series, this is a good spot for series context — how this entry compares to the others, whether it's a good starting point, that kind of thing.",
       "Close with your actual verdict and who you'd recommend it to. Delete this placeholder text and write your own — the rating above is also a placeholder."
     ]
-  } 
+  },
+{
+  id: "tsukihime",
+  title: "Tsukihime",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["visual novel"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts on the routes, the writing, and how it compares to the rest of the Nasuverse.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+},
+{
+  id: "witch-on-the-holy-night",
+  title: "Witch on the Holy Night",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["visual novel"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts here.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+},
+{
+  id: "fate-extra",
+  title: "Fate/Extra",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["rpg", "fate"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts here.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+},
+{
+  id: "drakengard-1",
+  title: "Drakengard",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["action rpg", "drakengard"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts here.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+},
+{
+  id: "kagetsu-tohya",
+  title: "Kagetsu Tohya",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["visual novel"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts here.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+},
+{
+  id: "fire-emblem-blazing-blade",
+  title: "Fire Emblem: The Blazing Blade",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["srpg", "fire emblem"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts here.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+},
+{
+  id: "fire-emblem-shadow-dragon",
+  title: "Fire Emblem: Shadow Dragon",
+  date: "2026-09-13",
+  status: "finished",
+  rating: 0,
+  tags: ["srpg", "fire emblem"],
+  excerpt: "Placeholder — replace with your verdict. Update the date above to when you actually finished it.",
+  body: [
+    "Placeholder text — swap in your real thoughts here.",
+    "Don't forget to set an actual rating in place of the 0 above."
+  ]
+} 
 ];
 
 /* ===========================================================
