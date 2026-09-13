@@ -1,0 +1,57 @@
+/* ===========================================================
+   REVIEWS
+   One object per game you've finished or put down for good.
+
+   id        unique short string, used for the shareable link
+   title     the game's name
+   date      when you finished/dropped it, "YYYY-MM-DD"
+   status    "finished" or "dropped"
+   rating    0-10 (can use .5)
+   tags      short lowercase words, used for the filter bar
+   excerpt   one or two sentences shown in the list view
+   body      array of paragraph strings — the full review
+=========================================================== */
+const REVIEWS = [
+  {
+    id: "trails-in-the-sky-fc",
+    title: "The Legend of Heroes: Trails in the Sky",
+    date: "2026-03-02",
+    status: "finished",
+    rating: 9,
+    tags: ["jrpg", "kiseki"],
+    excerpt: "Replace this excerpt with your own one-line verdict — this entry is a placeholder showing the format.",
+    body: [
+      "This is a placeholder review — swap this paragraph for your actual thoughts. A good opener says what kind of game this is and what it's trying to do before you judge whether it succeeds.",
+      "Use the next paragraph or two for specifics: what worked, what dragged, a moment that stuck with you. Since you've cleared the whole Kiseki series, this is a good spot for series context — how this entry compares to the others, whether it's a good starting point, that kind of thing.",
+      "Close with your actual verdict and who you'd recommend it to. Delete this placeholder text and write your own — the rating above is also a placeholder."
+    ]
+  },
+  {
+    id: "sample-dropped-game",
+    title: "Sample Game — Dropped",
+    date: "2026-01-14",
+    status: "dropped",
+    rating: 4,
+    tags: ["sample"],
+    excerpt: "An example of a 'dropped' entry — for games you quit for good rather than finished.",
+    body: [
+      "Not every game gets finished, and that's worth logging too. Use a dropped entry to note how far you got and why you stopped.",
+      "Delete this sample entry once you've got real ones to replace it with."
+    ]
+  }
+];
+
+/* ===========================================================
+   NOW PLAYING
+   Games you're currently in the middle of. No rating yet —
+   these move to REVIEWS above once you finish or drop them.
+
+   game   the game's name
+   note   a line or two on where you're at
+=========================================================== */
+const NOW_PLAYING = [
+  {
+    game: "Yakuza 4 Remastered",
+    note: "Picked back up partway through — replace this note with a real progress update."
+  }
+];
