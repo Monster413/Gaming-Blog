@@ -13,12 +13,12 @@
 =========================================================== */
 const REVIEWS = [
   {
-    id: "trails-in-the-sky-fc",
-    title: "The Legend of Heroes: Trails in the Sky",
-    date: "2026-03-02",
+    id: "final-fantasy-14-heavensward",
+    title: "Final Fantasy 14: Heavensward",
+    date: "2026-03-01",
     status: "finished",
     rating: 9,
-    tags: ["jrpg", "kiseki"],
+    tags: ["jrpg", "final fantasy"],
     excerpt: "Replace this excerpt with your own one-line verdict — this entry is a placeholder showing the format.",
     body: [
       "This is a placeholder review — swap this paragraph for your actual thoughts. A good opener says what kind of game this is and what it's trying to do before you judge whether it succeeds.",
@@ -27,18 +27,32 @@ const REVIEWS = [
     ]
   },
   {
-    id: "sample-dropped-game",
-    title: "Sample Game — Dropped",
-    date: "2026-01-14",
-    status: "dropped",
-    rating: 4,
-    tags: ["sample"],
+    id: "cyberpunk-2077",
+    title: "Cyberpunk 2077 + Phantom Liberty",
+    date: "2026-01-10",
+    status: "finished",
+    rating: 7,
+    tags: ["cyberpunk"],
     excerpt: "An example of a 'dropped' entry — for games you quit for good rather than finished.",
     body: [
       "Not every game gets finished, and that's worth logging too. Use a dropped entry to note how far you got and why you stopped.",
       "Delete this sample entry once you've got real ones to replace it with."
     ]
-  }
+  },
+  {
+    id: "trails-beyond-the-horizon",
+    title: "Trails Beyond the Horizon",
+    date: "2026-03-01",
+    status: "finished",
+    rating: 9,
+    tags: ["jrpg", "trails"],
+    excerpt: "Replace this excerpt with your own one-line verdict — this entry is a placeholder showing the format.",
+    body: [
+      "This is a placeholder review — swap this paragraph for your actual thoughts. A good opener says what kind of game this is and what it's trying to do before you judge whether it succeeds.",
+      "Use the next paragraph or two for specifics: what worked, what dragged, a moment that stuck with you. Since you've cleared the whole Kiseki series, this is a good spot for series context — how this entry compares to the others, whether it's a good starting point, that kind of thing.",
+      "Close with your actual verdict and who you'd recommend it to. Delete this placeholder text and write your own — the rating above is also a placeholder."
+    ]
+  } 
 ];
 
 /* ===========================================================
@@ -51,7 +65,7 @@ const REVIEWS = [
 =========================================================== */
 const NOW_PLAYING = [
   {
-    game: "Yakuza 4 Remastered",
-    note: "Picked back up partway through — replace this note with a real progress update."
+    game: "Final Fantasy 7",
+    note: "There ain't no gettin' offa this train we on, not till we get to the end of the line"
   }
 ];
